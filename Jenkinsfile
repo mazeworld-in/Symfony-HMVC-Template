@@ -5,7 +5,7 @@ pipeline {
   }
   environment {
     HEROKU_API_KEY = credentials('heroku-api-key')
-    IMAGE_NAME = 'mazeworld-in/Symfony-HMVC-Template'
+    IMAGE_NAME = 'mazeworld-in/symfony-hmvc-template'
     IMAGE_TAG = 'latest'
     APP_NAME = 'symfony-blog-v1'
   }
